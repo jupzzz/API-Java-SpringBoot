@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7aed088;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 1660.2px;
+    position: relative;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: transparent;
+}
+
+#content {
+    width: 14%;
+    height: 100%;
+    float: left;
+    margin-left: 70px;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: #ffffffd7;
+}
+
+#footer {
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+}
+
+.row1 {
+    float: left;
+}
+
+.logo {
+    width: 35%;
+    float: left;
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+}
+
+.btn-google {
+    color: white;
+    width: 78%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: end;
+    background-color: #996b8f;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+.btn-google img {
+    float: left;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.btn-enter {
+    width: 15%;
+    height: 40px;
+    margin-left: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(242, 215, 178);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+.btn-signin {
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+a.pswrd-link:link {
+    color: #996b8f;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: xx-small;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+a.signup-link:link {
+    color: #996b8f;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    line-height: 100px;
+    text-decoration: none;
+    font-size: xx-small;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+.input-email {
+    width: 93%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 13px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.716);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+.input-password {
+    width: 93%;
+    float: left;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 13px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.716);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+.input-email::placeholder {
+    color: black;
+}
+
+.input-password::placeholder {
+    color: black;
+}
+
+#signin {
+    margin-top: 15px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+#username {
+    margin-top: 30px;
+    color: rgb(78, 75, 75);
+    font-size: 60%;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+#password {
+    float: left;
+    margin-top: 15px;
+    color: rgb(78, 75, 75);
+    font-size: 60%;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
